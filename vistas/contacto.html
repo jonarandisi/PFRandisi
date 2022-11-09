@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vancouver | Contacto</title>
+    <link rel="shortcut icon" href="../img/logo.png">
+    <link rel="stylesheet" href="../scss/estilos.css">
+      <!--SEO-->
+  <meta name="descripton" content="Envía tu consulta sobre nuestros productos y nuestra manera de trabajo.">
+  <meta name="keywords"
+  content="carnes, alimentos, productos alimenticios, carnicería, vaca, cerdo, pollo, pescado, cortes,  ofertas de carne, destacados en carne">
+</head>
+
+<body>
+    <header><img src="../img/logo.png" alt="logo" class="logo">
+        Contacto
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Vancouver</a></li>
+            <li><a href="./productos.html">Productos</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+            <li><a href="./nosotros.html">Nosotros</a></li>
+            <li><a href="./sucursales.html">Sucursales</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <form action="#" method="get" enctype="text/plain" class="formulario">
+        <div class="">
+            <label for="name">Nombre</label>
+            <input type="text" name="name" id="name" required placeholder="Introduzca su nombre" class="form-item">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="Email" required class="form-item">
+        </div>
+        <div>
+            <label for="age">Edad</label>
+            <input type="number" name="age" id="age" min="1" max="200" class="form-item">
+        </div>
+        <div>
+            <label for="date">Fecha de nacimiento</label>
+            <input type="date" name="date" id="date" min="2019-06-10" class="form-item">
+        </div>
+        <div>
+            <strong>Género</strong>
+            <div>
+                <label for="male">Masculino</label>
+                <input type="radio" name="gender" id="male" value="male" class="form-item">
+            </div>
+            <div>
+                <label for="female">Femenino</label>
+                <input type="radio" name="gender" id="female" value="female" class="form-item">
+            </div>
+        </div>
+        <div>
+            <label for="phone">Teléfono</label>
+            <input type="tel" name="phone" id="phone" class="form-item">
+        </div>
+        <div>
+            <strong>Carnes favoritas</strong>
+            <div>
+                <label for="vaca">Vaca</label>
+                <input type="checkbox" name="vaca" id="vaca" class="form-item">
+            </div>
+            <div>
+                <label for="cerdo">Cerdo</label>
+                <input type="checkbox" name="cerdo" id="cerdo" class="form-item">
+            </div>
+            <div>
+                <label for="pollo">Pollo</label>
+                <input type="checkbox" name="pollo" id="pollo" class="form-item">
+            </div>
+            <div>
+                <label for="pescado">Pescado</label>
+                <input type="checkbox" name="pescado" id="pescado" class="form-item">
+            </div>
+        </div>
+        <div>
+            <label for="Bio">Envianos tu comentario</label>
+            <textarea name="Bio" id="Bio" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <input type="reset" value="Reiniciar formulario">
+            <input type="submit" value="Enviar formulario">
+        </div>
+    </form>
+
+</body>
+<footer>
+    <h6>Buscanos en nuestras redes:</h6>
+    <br>
+    <nav>
+      <div>
+        <a href="https://web.whatsapp.com/" target="_blank">
+          <img src="../img/WhatsApp.png" alt="Whatsapp" width="50" height="50">
+          Whatsapp: +54 9 3462-123456
+        </a>
+      </div>
+    </nav>
+    <br>
+      <nav>
+        <div>
+          <a href="https://www.instagram.com" target="_blank">
+            <img src="../img/Instagram.png" alt="Instagram" width="50" height="50">
+            Instagram
+          </a>
+        </div>
+      </nav>
+      <br>
+      <nav>
+        <div>
+          <a data-bind="'href:mailto' + emailcontacto()" href="mailto:jonarandi@gmail.com" target="_blank">
+            <img src="../img/gmaillogo.jpg" alt="Gmail" width="50" height="50">
+            Gmail
+          </a>
+        </div>
+      </nav>
+</footer>
+
+</html>

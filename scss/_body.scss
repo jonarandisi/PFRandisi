@@ -1,0 +1,67 @@
+body {
+    background-image: url(../../img/58d6e14c-f96f-4846-b9fa-26f459dd02cd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+div{
+    color: rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.formulario {
+    background-color: rgba(0, 0, 0, 0.74);
+}
+
+
+
+.form-item {
+    background-color: black;
+    border: 2px solid red;
+    color: red;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.form-item:hover {
+    background-color: white;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 20px;
+    width: 500px;
+    margin: 35px auto 5px;
+    background-color: rgb(41, 41, 41);
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.15);
+}
+
+form {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-item input {
+    background-color: black;
+    border: 1px solid rgb(255, 115, 0);
+    color: orange;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.form-item input:hover {
+    background-color: rgb(19, 19, 19);
+}
+
+.cortes {
+    color: white;
+}
