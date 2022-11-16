@@ -8,7 +8,11 @@ div {
   color: rgb(255, 255, 255);
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .formulario {
   background-color: rgba(0, 0, 0, 0.74);
 }
