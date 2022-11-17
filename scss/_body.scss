@@ -15,7 +15,114 @@ div{
     background-color: rgba(0, 0, 0, 0.74);
 }
 
-
+iframe{
+    display: block;
+    margin: 0 auto;
+  }
+  .foto:hover {
+    opacity: 1;
+    border: solid black 2px;
+    -webkit-transform: scale(1.05, 1.05);
+            transform: scale(1.05, 1.05);
+  }
+  .gridSection {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "topTitle"
+   "aside1"
+   "aside2"
+   "aside3"
+   "aside4"
+   "aside5"
+   "aside6"
+   "aside7"
+   "aside8"
+   "aside9"
+   "aside10";
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+    -webkit-column-gap: 1rem;
+            column-gap: 1rem;
+    row-gap: rem;
+  }
+  
+  .gridSection .title {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: topTitle;
+  }
+  
+  .gridSection .aside1 {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: aside1;
+    width: 100%;
+  }
+  
+  .gridSection .aside2 {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-area: aside2;
+    width: 100%;
+  }
+  
+  .gridSection .aside3 {
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+    grid-area: aside3;
+    width: 100%;
+  }
+  
+  .gridSection .aside4 {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+    grid-area: aside4;
+    width: 100%;
+  }
+  
+  .gridSection .aside5 {
+    -ms-grid-row: 6;
+    -ms-grid-column: 1;
+    grid-area: aside5;
+    width: 100%;
+  }
+  
+  .gridSection .aside6 {
+    -ms-grid-row: 7;
+    -ms-grid-column: 1;
+    grid-area: aside6;
+    width: 100%;
+  }
+  
+  .gridSection .aside7 {
+    -ms-grid-row: 8;
+    -ms-grid-column: 1;
+    grid-area: aside7;
+    width: 100%;
+  }
+  
+  .gridSection .aside8 {
+    -ms-grid-row: 9;
+    -ms-grid-column: 1;
+    grid-area: aside8;
+    width: 100%;
+  }
+  
+  .gridSection .aside9 {
+    -ms-grid-row: 10;
+    -ms-grid-column: 1;
+    grid-area: aside9;
+    width: 100%;
+  }
+  
+  .gridSection .aside10 {
+    -ms-grid-row: 11;
+    -ms-grid-column: 1;
+    grid-area: aside10;
+    width: 100%;
+  }
 
 .form-item {
     background-color: black;
